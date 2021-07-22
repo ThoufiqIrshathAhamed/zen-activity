@@ -1,0 +1,38 @@
+1.diff browser js vs Node js
+  a.browser js is client side coding 
+    Node js is server side coding
+  b.browser js used inside the browser 
+    node js used outside the browser
+  c.browser js is seperate coding language 
+    node js uses v8 engine with some libraries on server side
+  d.browser js provides behaviours to [HTML,CSS]
+    node js as server fucntions like reading files database objects
+  e.node js has node package manager for sharing and reusing codes
+
+2.how browser rendering websites
+  parsing
+  DOM tree
+  render tree
+  is actually 4 trees
+  layout computes where a Node will be on screen
+  painting computes bitmaps and composite to screen
+  
+4.
+    typeof(1)
+    "number"
+     typeof(1.1)
+    "number"
+    typeof('1.1')
+    "string"
+    typeof(true)
+    "boolean"
+    typeof(null)
+    "object"
+    typeof(undefined)
+    "undefined"
+    typeof([])
+    "object"
+    typeof({})
+    "object"
+    typeof(NaN)
+    "Number"
