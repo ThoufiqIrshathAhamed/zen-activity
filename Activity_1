@@ -1,0 +1,8 @@
+1.difference between HTTP1.1 and HTTP2
+  
+  * HTTP2 is much faster and more efficient than HTTP1.1.
+  * HTTP1.1 loads resources one after other.if one cannot be loaded it blocks other resources behind it.
+    HTTP2 use single TCP connection to send multiple streams of data by spliting data into binary code and numbering each code.
+  * HTTP1.1 serves only the client asks.
+    HTTP2 serves also 'PUSH' content before client asks for it.
+  * Both HTTP1.1 and HTTP2 compress message to make them smaller but HTTP2 additionaly uses HPACK(which eliminates HTTP header packs).
