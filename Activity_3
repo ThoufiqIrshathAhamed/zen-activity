@@ -1,45 +1,45 @@
 
 2.............
-{
-  "general": {
-              "name": "Ahamed",
-              "email": "Ahamed@gmail.com",
-              "phone": "9876543210",
-              "location": { 
-                          "address": "1 Broadway St",
-                          "postalCode": "600001",
-                          "city": "Chennai",
-                          "countryCode": "IN",
-                          "state": "Tamilnadu"
-                          }
-              },
-  "work": {
-            "name": "Company",
-            "position": "Developer",
-            "startDate": "01-01-2021"
-          ],
-  "education": {
-                "institution": "University",
-                "startDate": "01-01-2016",
-                "endDate": "01-01-2019",
-                "score": "6.0",
-                "courses": "Bsc.cs"            
-                }, 
-  "skills": {
-            "name": "Web Development",
-            "level": "Beginner",
-            "keywords": {
-                        "HTML",
-                        "CSS",
-                        "JavaScript"
-                        }
-            },
-  "languages": {
-                "Tamil",
-                "English"
-                },
-  "interests": {
-                "Music",
-                "Video Games"
-                },
-}
+var resume = {
+              "general": {
+                          "name": "Ahamed",
+                          "email": "Ahamed@gmail.com",
+                          "phone": "9876543210",
+                          "location": { 
+                                      "address": "1 Broadway St",
+                                      "postalCode": "600001",
+                                      "city": "Chennai",
+                                      "countryCode": "IN",
+                                      "state": "Tamilnadu"
+                                      }
+                          },
+              "work": {
+                        "name": "Company",
+                        "position": "Developer",
+                        "startDate": "01-01-2021"
+                      ],
+              "education": {
+                            "institution": "University",
+                            "startDate": "01-01-2016",
+                            "endDate": "01-01-2019",
+                            "score": "6.0",
+                            "courses": "Bsc.cs"            
+                            }, 
+              "skills": {
+                        "name": "Web Development",
+                        "level": "Beginner",
+                        "keywords": {
+                                    "HTML",
+                                    "CSS",
+                                    "JavaScript"
+                                    }
+                        },
+              "languages": {
+                            "Tamil",
+                            "English"
+                            },
+              "interests": {
+                            "Music",
+                            "Video Games"
+                            },
+            }
